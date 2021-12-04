@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.container {
+  display: grid;
+  margin: 20px Auto 0;
+  width: 60vw;
+  height: 60vw;
+  border: 1px solid black;
+  grid-template-areas:
+    "one two three four"
+    "five six seven eight"
+    "nine ten eleven twelve"
+    "thirteen fourteen fivteen sixteen";
+}
+.container div {
+  border: 1px solid black;
+}
+.referral {
+  font-size: 12px;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1,
+span {
+  position: relative;
+  left: 50px;
+}
+span {
+  color: red;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.board .time {
+  font-size: 2rem;
+  position: relative;
+  left: 50px;
+}
+.board .timer {
+  color: red;
+  font-weight: bold;
+  font-size: 2rem;
+  position: relative;
+  left: 50px;
+}
